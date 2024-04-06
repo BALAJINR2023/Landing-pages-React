@@ -1,0 +1,55 @@
+.cnt{
+    background-image: url("https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg"); 
+    width:auto;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+}
+.inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    
+}
+.pc{
+    width: 50%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.des{
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-weight: 400;
+    color: white;
+}
+.int{
+ width:400px;
+ border-radius: 10px;
+ margin: 10px 10px;
+ padding: 5px;
+}
+.btn{
+    width:100px;
+    height: 40px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    color:white;
+    background-color: rgb(9, 106, 241);
+    padding: 5px;
+}
+@media only screen and (max-width: 800px){
+    .des{font-size: 20px;}
+    .int{width:100px;}
+    .cnt{height: 400px;}
+    .inner{
+            display: flex;
+            justify-content: center;
+            height: 400px;
+        }
+}

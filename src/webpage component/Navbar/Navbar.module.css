@@ -1,0 +1,12 @@
+.nav{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: bolder;
+    font-weight: 300;
+    color: black;
+    margin: 0 10px;
+    text-decoration: none !important;
+}
+.nav:hover{
+    color: black;
+}

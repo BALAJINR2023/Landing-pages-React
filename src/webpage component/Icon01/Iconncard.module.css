@@ -1,0 +1,21 @@
+.cards{
+    width:300px;
+    height: 300px;
+    padding: 10px;
+}
+
+.icons{
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.title{
+    font-weight: bolder;
+    font-size: x-large;
+    text-align: center;
+}
+.desc{
+ font-family: 'Times New Roman', Times, serif;
+ text-align: center;
+}

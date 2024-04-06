@@ -1,0 +1,33 @@
+.card1{
+    display: flex;
+    justify-content:end;
+    width:auto;
+    font-size: 30px;
+    margin-right: 50px;
+    gap:20px;
+    color: #007bff;
+}
+.list{
+   margin: 40px;
+    
+}
+.desc{
+    opacity: 0.5;
+    color:black;
+    padding-top: 5px;
+}
+.li{
+    display: flex;
+    gap:40px;
+    text-decoration: underline;
+    color: #007bff;
+}
+@media only screen and (max-width: 800px){
+    .li{
+        display: flex;
+        flex-direction: column;
+        gap:2px;
+        text-decoration: underline;
+        color: #007bff;
+    }
+}

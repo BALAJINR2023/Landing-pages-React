@@ -1,0 +1,33 @@
+.iconcard{
+    background-color: #e9ecef;
+    height: 400px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@media only screen and (max-width: 800px){
+    .iconcard{
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+@media only screen and (max-width: 800px){
+    .box{
+    display: flex;
+    flex-direction: column;
+}}
+.interdesc{
+    background-color: #e9ecef;
+    height: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 90px;
+}
