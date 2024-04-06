@@ -6,3 +6,7 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+//COMPONENTS DETAILS
+  *Navbar-top head of the nav bar items ot access.
+  *Detailcont-Details of the accesing data parts.
+  *lasticon- brand detail like (About,..) images of social media and other things.
